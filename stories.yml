@@ -1,0 +1,79 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pertanyaan tentang penanganan stunting
+  steps:
+  - intent: salam
+  - action: utter_salam
+  - intent: pertanyaan_tentang_penanganan_stunting
+  - action: utter_pertanyaan_tentang_penanganan_stunting
+  - intent: terima_kasih
+  - action: utter_terima_kasih
+
+- story: menyapa
+  steps:
+  - intent: salam
+  - action: utter_salam
+
+- story: deskripsistunting
+  steps:
+  - intent: deskripsi_stunting
+  - action: utter_deskripsi_stunting
+
+- story: tentangstunting
+  steps:
+  - intent: pertanyaan_tentang_stunting
+  - action: utter_pertanyaan_tentang_stunting
+
+- story: gejalastunting
+  steps:
+  - intent: pertanyaan_tentang_gejala_stunting
+  - action: utter_pertanyaan_tentang_gejala_stunting
+
+- story: pencegahstunting
+  steps:
+  - intent: pertanyaan_tentang_pencegahan_stunting
+  - action: utter_pertanyaan_tentang_pencegahan_stunting
+
+- story: pencegahstunting
+  steps:
+  - intent: pertanyaan_tentang_pencegahan_stunting
+  - action: utter_pertanyaan_tentang_pencegahan_stunting
+
+- story: penangananstunting
+  steps:
+  - intent: pertanyaan_tentang_penanganan_stunting
+  - action: utter_pertanyaan_tentang_penanganan_stunting
+
+- story: terimakasih
+  steps:
+  - intent: terima_kasih
+  - action: utter_terima_kasih

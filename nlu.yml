@@ -1,0 +1,147 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: salam
+  examples: |
+    - permisi
+    - selamat sore
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+
+- intent: terima_kasih
+  examples: |
+    - terima kasih
+    - terima kasih banyak
+    - thank you
+    - thanks
+    - thanks a lot
+    - Terima kasih atas bantuannya
+    - Terima kasih atas informasinya
+    - Terima kasih atas saran yang diberikan
+    - Terima kasih atas jawabannya
+
+- intent: pertanyaan_tentang_penanganan_stunting
+  examples: |
+    - Bagaimana cara menangani stunting?
+    - Apa yang harus saya lakukan jika anak saya mengalami stunting?
+    - Apa yang harus dilakukan jika anak saya mengalami stunting yang parah?
+    - Apakah ada obat atau terapi yang dapat mengobati stunting?
+    - Apakah ada program atau layanan yang dapat membantu menangani stunting?
+
+- intent: pertanyaan_tentang_pencegahan_stunting
+  examples: |
+    - Bagaimana cara mencegah stunting?
+    - Apa yang harus saya lakukan untuk mencegah stunting pada anak saya?
+    - Apa saja yang harus diperhatikan untuk mencegah stunting?
+    - Apakah ada cara-cara yang mudah untuk mencegah stunting?
+    - Apakah ada makanan yang dapat membantu mencegah stunting?
+
+- intent: pertanyaan_tentang_gejala_stunting
+  examples: |
+    - Apa saja gejala stunting?
+    - Bagaimana cara mengetahui anak saya mengalami stunting?
+    - Apa yang harus saya lakukan jika anak saya mengalami stunting?
+    - Apakah ada tanda-tanda yang harus saya perhatikan jika anak saya mungkin mengalami stunting?
+    - Apa yang harus saya lakukan jika anak saya mengalami stunting yang parah?
+
+- intent: pertanyaan_tentang_stunting
+  examples: |
+    - Bagaimana cara mencegah stunting?
+    - Apa yang menyebabkan stunting?
+    - Mengapa stunting sangat berbahaya bagi anak-anak?
+    - Apa yang harus dilakukan jika anak saya mengalami stunting?
+
+- intent: deskripsi_stunting
+  examples: |
+    - Apa itu stunting?

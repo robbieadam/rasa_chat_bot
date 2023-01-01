@@ -1,0 +1,80 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - salam
+  - terima_kasih
+  - pertanyaan_tentang_penanganan_stunting
+  - pertanyaan_tentang_pencegahan_stunting
+  - pertanyaan_tentang_gejala_stunting
+  - pertanyaan_tentang_stunting  
+  - deskripsi_stunting
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, remade by Robbie."
+
+  utter_salam:
+  - text: "Hai, apa kabar?"
+  - text: "Salam, ada yang bisa saya bantu?"
+  - text: "Halo, ada yang bisa saya bantu?"
+  - text: "Selamat siang, ada yang bisa saya bantu?"
+  - text: "Selamat pagi, apa yang dapat saya bantu hari ini?"
+  - text: "Selamat malam, apa yang dapat saya bantu malam ini?"
+
+  utter_pertanyaan_tentang_stunting:
+  - text: "Stunting adalah suatu kondisi di mana pertumbuhan fisik anak terhambat akibat kekurangan gizi yang berkepanjangan. Stunting dapat terjadi karena beberapa faktor, seperti kekurangan asupan gizi, infeksi berulang, dan faktor-faktor lainnya."
+  - text: "Untuk mencegah stunting, ada beberapa hal yang dapat dilakukan, seperti memberikan asupan gizi yang seimbang, mencegah infeksi, dan memperhatikan kebersihan lingkungan."
+  - text: "Jika anak Anda mengalami stunting, ada beberapa hal yang dapat dilakukan untuk menangani kondisi tersebut, seperti meningkatkan asupan gizi, melakukan terapi gizi, dan memperhatikan kebersihan lingkungan."
+
+  utter_pertanyaan_tentang_gejala_stunting:
+  - text: "Gejala stunting biasanya terlihat dari pertumbuhan fisik anak yang terhambat. Anak yang mengalami stunting umumnya lebih pendek daripada anak seusianya yang tidak mengalami stunting."
+  - text: "Untuk mengetahui apakah anak Anda mengalami stunting, Anda dapat membandingkan tinggi dan berat badan anak Anda dengan standar pertumbuhan yang ditetapkan oleh WHO. Anda juga dapat berkonsultasi dengan dokter atau ahli gizi untuk memastikan kondisi anak Anda."
+  - text: "Jika anak Anda mengalami stunting, ada beberapa tanda yang dapat Anda perhatikan, seperti pertumbuhan fisik yang terhambat, daya tahan tubuh yang lemah, dan kondisi kesehatan yang kurang baik."
+
+  utter_pertanyaan_tentang_pencegahan_stunting:
+  - text: "Untuk mencegah stunting, ada beberapa hal yang dapat dilakukan, seperti memberikan asupan gizi yang seimbang, mencegah infeksi, dan memperhatikan kebersihan lingkungan."
+  - text: "Memastikan anak Anda mendapatkan asupan gizi yang seimbang merupakan langkah penting dalam mencegah stunting. Anak-anak yang memperoleh asupan gizi yang cukup akan tumbuh dan berkembang dengan baik. Beberapa makanan yang dapat membantu mencegah stunting adalah Buah-buahan dan sayur-sayuran segar: Buah-buahan dan sayur-sayuran mengandung banyak vitamin dan mineral yang dibutuhkan oleh anak-anak. Susu dan produk olahannya: Susu merupakan sumber protein, kalsium, dan vitamin yang baik untuk anak-anak. Daging, telur, dan produk olahannya: Daging, telur, dan produk olahannya mengandung banyak protein yang dibutuhkan oleh anak-anak untuk tumbuh dan berkembang. Kacang-kacangan dan biji-bijian: Kacang-kacangan dan biji-bijian mengandung banyak protein, zat besi, dan zat besi yang dibutuhkan oleh anak-anak."
+  - text: "Selain memberikan asupan gizi yang seimbang, ada beberapa hal lain yang dapat dilakukan untuk mencegah stunting, seperti Menjaga kebersihan lingkungan Kebersihan lingkungan dapat membantu mencegah infeksi yang dapat menyebabkan stunting. Menyediakan akses air bersih: Air bersih merupakan sumber yang penting untuk mencegah infeksi. Melakukan vaksinasi: Vaksinasi dapat membantu mencegah infeksi yang dapat menyebabkan stunting."
+  - text: "Dengan melakukan langkah-langkah ini, Anda dapat membantu mencegah stunting pada anak Anda dan memastikan pertumbuhan dan perkembangan yang sehat."
+
+  utter_terima_kasih:
+  - text: "Sama-sama. Apabila ada pertanyaan lain yang ingin ditanyakan, jangan ragu untuk bertanya kembali."
+  - text: "Terima kasih atas perhatiannya. Apabila ada pertanyaan lain, jangan ragu untuk bertanya."
+  - text: "Senang bisa membantu. Apabila ada pertanyaan lain, jangan ragu untuk menanyakannya."
+  - text: "Sama-sama. Apabila ada pertanyaan lain yang ingin ditanyakan, silakan tanyakan saja."
+
+  utter_pertanyaan_tentang_penanganan_stunting:
+  - text: "Untuk menangani stunting, pertama-tama Anda harus mengevaluasi kebutuhan gizi anak Anda. Jika terdapat kekurangan nutrisi, maka Anda perlu memperbaiki pola makan anak Anda dengan memberikan makanan yang cukup dan sehat. Selain itu, Anda juga harus memperhatikan kebersihan lingkungan rumah, karena lingkungan yang tidak bersih dapat menyebabkan infeksi yang dapat memperparah stunting."
+  - text: "Jika stunting yang dialami anak Anda sudah parah, maka sebaiknya Anda segera membawa anak Anda ke dokter atau tenaga kesehatan lain yang terlatih untuk memberikan penanganan yang tepat. Dokter atau tenaga kesehatan tersebut akan mengevaluasi kondisi anak Anda dan memberikan saran atau terapi yang sesuai dengan kebutuhan."
+  - text: "Untuk mengobati stunting, tidak ada obat atau terapi khusus yang dapat digunakan. Namun, dengan memperbaiki pola makan dan menjaga kebersihan lingkungan, stunting dapat dicegah dan dapat terjadi perbaikan pada tinggi dan berat badan anak."
+  - text: "Jika Anda membutuhkan bantuan untuk menangani stunting pada anak Anda, Anda dapat mencari layanan kesehatan atau program-program yang ditujukan untuk menangani stunting. Beberapa contoh layanan atau program tersebut adalah layanan gizi di puskesmas atau posyandu, program pemberian makanan tambahan bagi anak-anak yang kurang gizi, atau program penyuluhan tentang gizi yang diselenggarakan oleh pemerintah atau lembaga swadaya masyarakat."
+
+  utter_deskripsi_stunting:
+  - text: "Stunting adalah suatu kondisi di mana pertumbuhan fisik anak terhambat akibat kekurangan gizi yang berkepanjangan. Stunting dapat terjadi karena beberapa faktor, seperti kekurangan asupan gizi, infeksi berulang, dan faktor-faktor lainnya."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
